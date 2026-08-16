@@ -103,7 +103,7 @@ jsSID.TinySID.prototype.generateIntoBuffer = function(count, buffer, offset) {
 	for (bp = offset; bp < endbp; bp += 1) {
 		var outo = 0;
 		var outf = 0;
-		
+
 		for ( v = 0; v < 3; v++) {
 			var thisosc = this.osc[v];
 			thisosc.sampleUpdate();
